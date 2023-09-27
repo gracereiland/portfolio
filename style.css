@@ -84,7 +84,9 @@ img[alt]{
   .textblock a:link 
   /* This section lets you adjust the text style for your link elements in the textblock div.  See https://www.w3schools.com/html/html_links.asp for more details. With links styles can be applied based on several factors.*/{
   text-decoration: none;
-  color: blue;
+  color: white;
+  
+  
 }
 
   .textblock a:visited {
@@ -335,6 +337,7 @@ this CSS element centers text elements*/
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
+  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -344,7 +347,7 @@ this CSS element centers text elements*/
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #22433A;
+  background-color: black;
   color: floralwhite;
 }
 
